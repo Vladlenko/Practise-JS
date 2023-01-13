@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main-conteiner">
+        <div class="right-showCase">
+            <span class="showCase-text">СЕГОДНЯ В НАЛИЧИИ</span>
+            <ul>
+                <li class="showCase-product">
+                    <img class="showCase-product-img" src="/kioskData/beer.png">
+                    <div class="showCase-place">
+                        <span class="goodsTittle" id="beer">ПИВО</span>
+                        <input class="showCase-good" id="beerCount" disabled>
+                    </div>
+
+                </li>
+                <li class="showCase-product">
+                    <img class="showCase-product-img" src="/kioskData/sigi.png">
+                    <div class="showCase-place">
+                        <span class="goodsTittle" id="sigi">СИГИ</span>
+                        <input class="showCase-good" id="sigiCount" disabled>
+                    </div>
+                    
+                </li>
+                <li class="showCase-product">
+                    <img class="showCase-product-img" src="/kioskData/chips.png">
+                    <div class="showCase-place">
+                        <span class="goodsTittle" id="chips">ЧИПСИКИ</span>
+                        <input class="showCase-good" id="chipsCount" disabled>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="center-salesWoman">
+            <img class="salesWoman-img" src="/kioskData/salesWoman.png" alt="">
+            <span class="salesWoman-text">ЕСТЬ ТОЛЬКО ПИВО, СИГИ И ЧИПСИКИ</span>
+        </div>
+
+        <div class="left-buy">
+            <ul>
+                <li>
+                    <span class="left-buy-text">ЧЁ НАДА !!?</span>
+                    <select class="showCase-good" id="selectProduct">
+
+                    </select>
+                </li>
+                <li>
+                    <span>СКОКА !!?</span>
+                    <input class="showCase-good" id="countGoods" type="number">
+                </li>
+                <li>
+                    <span>С ТЕБЯ </span>
+                    <input class="showCase-good" id="giveMoney" type="number" disabled>
+                </li>
+                <li>
+                    <span>СКОКА ДЕНЕГ ДАШЬ ?</span>
+                    <input class="showCase-good" id="moneys" type="number">
+                </li>
+                <li>
+                    <button id="buy">К У П И Т Ь</button>
+                </li>
+                <li>
+                    <span>ТВОЯ СДАЧА</span>
+                    <input class="showCase-good" id="turningIn" disabled>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="/hw13.js"></script>
+</body>
+</html>
